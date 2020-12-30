@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+body,html{
+  background-color: rgb(175, 168, 168);
+}
+.navbar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+i {
+  color: white;
+  font-size: 30px;
+  padding: 5px;
+}

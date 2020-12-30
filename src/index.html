@@ -1,13 +1,42 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>Task</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script src="https://kit.fontawesome.com/a04189bd20.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <app-root></app-root>
+
+<body style="background-color: rgb(245, 245, 218);">
+  <div class="header">
+    <!-- Image and text -->
+    <nav class="navbar sticky-top navbar-light bg-dark">
+      <a class="navbar-brand" href="#">
+        <img src="https://pngimage.net/wp-content/uploads/2018/05/dummy-logo-png-1.png" width="80" height="auto"
+          class="d-inline-block align-top" alt="">
+      </a>
+      <h2 class="text-white" style="flex:auto;">Task</h2>
+    </nav>
+  </div>
+  <div class="container mt-3">
+    <app-root></app-root>
+  </div>
+  <div class="footer bg-dark text-white w-100 p2"
+  style="
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;">
+    <a href="#"><i class="fab fa-facebook-square"></i></a>
+    <a href="#"><i class="fab fa-twitter-square"></i></a>
+    <a href="#"><i class="fab fa-youtube-square"></i></a>
+    <a href="#"><i class="fab fa-instagram-square"></i></a>
+  </div>
+
 </body>
+
 </html>
